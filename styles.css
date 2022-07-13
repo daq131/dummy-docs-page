@@ -83,10 +83,15 @@ code {
       border: 1px solid;
       height: 207px;
     }
+    p {
+      font-size: 12px;
+        
+    }
   }
 
   @media only screen and (max-width: 400px) {
     #main-doc {
       margin-left: -10px;
     }
+    p {  font-size: 10px; }
 }
